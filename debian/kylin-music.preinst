@@ -1,0 +1,4 @@
+filename="/tmp/kylin-music.update"
+current=`date "+%Y-%m-%d %H:%M:%S"`  
+timeStamp=`date -d "$current" +%s`   
+echo $timeStamp  > $filename
